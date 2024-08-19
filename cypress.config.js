@@ -3,7 +3,7 @@ const { defineConfig } = require("cypress");
 module.exports = {
   e2e: {
     baseUrl: 'https://www.saucedemo.com/',
-    // pageLoadTimeout: 1200, // Increase timeout to 120 seconds
+      pageLoadTimeout: 120000, // Increase timeout to 120 seconds
   },
 };
 
